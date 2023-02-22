@@ -5,5 +5,5 @@ set -o errexit
 pip install -r requirements.txt
 
 
-python manage.py createsuperuser --email --no-input
 python manage.py migrate
+python manage.py createsuperuser --username myusername --email edmundprecious23@gmail.com
