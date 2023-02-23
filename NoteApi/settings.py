@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     
     'drf_yasg',
+    
+    'preciousnoteapi.onrender.com',
 ]
 
 MIDDLEWARE = [
