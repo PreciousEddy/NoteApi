@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-o#=(ap-v9lr*p#o&t!9b1#ir6l+nb57!i$_6vgdpi(6wu^1ou+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['preciousnoteapi.onrender.com',]
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     
     'drf_yasg',
     
-    'preciousnoteapi.onrender.com',
+    
 ]
 
 MIDDLEWARE = [
